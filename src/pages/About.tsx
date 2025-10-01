@@ -4,21 +4,21 @@ const About = () => {
   const founders = [
     {
       name: "Mr. Ajay Arulkumaran",
-      role: "Founder / Operations Head",
+      role: "Co-Founder",
       image: "/assets/founders/founder_ajay.jpg",
-      bio: "Leading operations with 15+ years of experience in global logistics and supply chain management.",
+      bio: "Committed to excellence in global trade, bringing expertise across operations, business development, and logistics.",
     },
     {
       name: "Mr. Ganesh Balaji",
-      role: "Co-Founder / Business Development",
+      role: "Co-Founder",
       image: "/assets/founders/founder_ganesh.jpg",
-      bio: "Driving business growth with expertise in international trade and client relationship management.",
+      bio: "Dedicated to delivering quality export solutions with comprehensive knowledge of international trade and compliance.",
     },
     {
       name: "Mr. Kevin Rhichard",
-      role: "Co-Founder / Logistics & Compliance",
+      role: "Co-Founder",
       image: "/assets/founders/founder_kevin.jpg",
-      bio: "Ensuring seamless compliance and logistics coordination across all trade lanes.",
+      bio: "Passionate about building trusted partnerships and ensuring seamless global logistics for every client.",
     },
   ];
 

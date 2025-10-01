@@ -7,7 +7,7 @@ const LogoIntro = ({ onComplete }: { onComplete: () => void }) => {
     const timer = setTimeout(() => {
       setIsVisible(false);
       setTimeout(onComplete, 300);
-    }, 1500);
+    }, 2000);
 
     return () => clearTimeout(timer);
   }, [onComplete]);
