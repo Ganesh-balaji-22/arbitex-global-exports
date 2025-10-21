@@ -26,7 +26,7 @@ const Header = () => {
             <img
               src="/assets/logo/logo.svg"
               alt="Arbitex Global Exports"
-              className="h-[35px] md:h-[45px] lg:h-[50px] w-auto transition-transform hover:scale-105"
+              className="h-[50px] md:h-[60px] lg:h-[70px] w-auto transition-transform hover:scale-105"
             />
           </Link>
 
