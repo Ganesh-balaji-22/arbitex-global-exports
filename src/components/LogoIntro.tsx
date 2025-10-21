@@ -6,8 +6,8 @@ const LogoIntro = ({ onComplete }: { onComplete: () => void }) => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsVisible(false);
-      setTimeout(onComplete, 300);
-    }, 2000);
+      setTimeout(onComplete, 100);
+    }, 1500);
 
     return () => clearTimeout(timer);
   }, [onComplete]);
@@ -15,11 +15,11 @@ const LogoIntro = ({ onComplete }: { onComplete: () => void }) => {
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-background">
+    <div className="intro-overlay">
       <img
-        src="/assets/logo/logo.png"
+        src="/assets/logo/logo.svg"
         alt="Arbitex Global Exports"
-        className="logo-intro w-64 h-auto md:w-80"
+        className="logo-intro"
       />
     </div>
   );

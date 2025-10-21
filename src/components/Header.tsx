@@ -22,11 +22,11 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-40 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-3">
+          <Link to="/" className="flex items-center gap-3 cursor-pointer">
             <img
-              src="/assets/logo/logo.png"
+              src="/assets/logo/logo.svg"
               alt="Arbitex Global Exports"
-              className="h-12 w-auto"
+              className="h-[35px] md:h-[45px] lg:h-[50px] w-auto transition-transform hover:scale-105"
             />
           </Link>
 
