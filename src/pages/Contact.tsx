@@ -27,17 +27,16 @@ const Contact = () => {
   });
 
   const categories = [
-    "Fruits & Vegetables",
+    "Coco Peat & Coco-Based Products",
+    "Fresh Fruits",
+    "Fresh Vegetables",
     "Spices Products",
-    "Grocery Products",
-    "Namkeen & Frozen",
+    "Rice & Cereals",
+    "Pulses & Lentils",
+    "Grocery & Food Products",
+    "Namkeen & Frozen Foods",
     "Handicraft Products",
-    "Copper Products",
-    "Imitation Jewellery",
-    "Furniture",
-    "Leather Products",
-    "Garment Products",
-    "Ceramic & Stone",
+    "Cotton & Textile Products",
     "General Inquiry",
   ];
 
@@ -133,10 +132,10 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1 text-foreground">Phone</h3>
                     <a
-                      href="tel:+919751912197"
+                      href="tel:+916374244869"
                       className="text-muted-foreground hover:text-primary"
                     >
-                      +91 9751912197
+                      +91 6374244869
                     </a>
                   </div>
                 </div>
@@ -146,7 +145,7 @@ const Contact = () => {
                   <div>
                     <h3 className="font-semibold mb-1 text-foreground">WhatsApp</h3>
                     <a
-                      href="https://wa.me/919751912197"
+                      href="https://wa.me/916374244869"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-muted-foreground hover:text-primary"
